@@ -7,5 +7,17 @@ package org.usfirst.frc.team1557.robot;
  * floating around.
  */
 public class RobotMap {
+	
+	/*These define the port IDs.*/
+	public static int driveJoyLeftID = 0;
+	public static int driveJoyRightID = 1;
+	
+	public static int driveMotorLeftRearID = 0;
+	public static int driveMotorRightRearID = 1;
+	public static int driveMotorLeftFrontID = 2;
+	public static int driveMotorRightFrontID = 3;
+	
+	public static int leftDriveJoyAxisID = 0;
+	public static int rightDriveJoyAxisID = 1;
 
 }
