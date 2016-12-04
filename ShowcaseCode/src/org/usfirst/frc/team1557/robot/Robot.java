@@ -1,6 +1,7 @@
 package org.usfirst.frc.team1557.robot;
 
 import org.usfirst.frc.team1557.robot.subsystems.DriveSubsystem;
+import org.usfirst.frc.team1557.robot.subsystems.LaunchSubsystem;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Scheduler;
@@ -19,6 +20,7 @@ public class Robot extends IterativeRobot {
 
 	/* Here, in the Robot class, we must create instances of our subsystems. */
 	public static DriveSubsystem drive = new DriveSubsystem();
+	public static LaunchSubsystem launch = new LaunchSubsystem();
 
 	/**
 	 * This function is run when the robot is first started up and should be
@@ -68,9 +70,10 @@ public class Robot extends IterativeRobot {
 
 		/*
 		 * At the start of the teleoperated period, we are starting the default
-		 * command of the DriveSubsystem, which is the TankDrive command.
+		 * commands of the subsystems.
 		 */
 		drive.initDefaultCommand();
+		launch.initDefaultCommand();
 	}
 
 	/**

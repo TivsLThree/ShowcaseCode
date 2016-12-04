@@ -19,5 +19,9 @@ public class RobotMap {
 	
 	public static int leftDriveJoyAxisID = 0;
 	public static int rightDriveJoyAxisID = 1;
+	
+	
+	public static int altJoyOneID = 2;
+	public static int launchButtonID = 0;
 
 }
