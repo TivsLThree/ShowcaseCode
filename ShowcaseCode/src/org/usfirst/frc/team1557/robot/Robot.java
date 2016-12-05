@@ -1,6 +1,7 @@
 
 package org.usfirst.frc.team1557.robot;
 
+import org.usfirst.frc.team1557.robot.subsystems.DriveSubsystem;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Scheduler;
@@ -13,11 +14,10 @@ import edu.wpi.first.wpilibj.command.Scheduler;
  * directory.
  */
 public class Robot extends IterativeRobot {
-
+	public static DriveSubsystem driveSub = new DriveSubsystem();
 
 	public void robotInit() {
 	}
-
 
 	public void teleopInit() {
 

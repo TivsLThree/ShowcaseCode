@@ -7,5 +7,15 @@ package org.usfirst.frc.team1557.robot;
  * floating around.
  */
 public class RobotMap {
+	public static final int frontRightTalon = 0;
+	public static final int rearRightTalon = 1;
+	public static final int rearLeftTalon = 2;
+	public static final int frontLeftTalon = 3;
+
+	public static final int joystickXAxis = 0;
+	public static final int joystickYAxis = 1;
+	public static final int joystickZAxis = 2;
+
+	public static final int joystickPort = 0;
 
 }
